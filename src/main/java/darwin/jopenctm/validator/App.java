@@ -33,12 +33,10 @@ public class App {
             System.err.println("'" + path + "' is not a valid path to a file!");
         } catch (IOException ex) {
             System.err.println("can not read file '" + path + "'");
-        } catch (InvalidDataException e) {
-            e.printStackTrace();
         }
     }
 
-    private static void readAndValidateModel(String path, CtmFileReader reader) throws InvalidDataException {
+    private static void readAndValidateModel(String path, CtmFileReader reader) {
         List<String> validationError;
         try {
             System.out.println("\nReading model from: '" + path + "'");
