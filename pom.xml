@@ -33,13 +33,6 @@
                 <groupId>com.github.chrisdchristo</groupId>
                 <artifactId>capsule-maven-plugin</artifactId>
                 <version>1.4.3</version>
-                <executions>
-                    <execution>
-                        <goals>
-                            <goal>build</goal>
-                        </goals>
-                    </execution>
-                </executions>
                 <configuration>
                     <appClass>darwin.jopenctm.validator.App</appClass>
                     <type>fat</type>
