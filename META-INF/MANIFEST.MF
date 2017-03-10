@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Application-Name: ctm-validator-1.0-SNAPSHOT-capsule
+Embedded-Artifacts: darwin.jopenctm:ctm-validator:1.0-SNAPSHOT com.git
+ hub.danny02:JOpenCTM:1.5.1 com.github.jponge:lzma-java:1.3 
+Premain-Class: Capsule
+Application-Class: darwin.jopenctm.validator.App
+Build-Info: includeApp includeCompileDep includeRuntimeDep includeTran
+ sitiveDep
+Main-Class: Capsule
+Min-Java-Version: 1.7.0
+
