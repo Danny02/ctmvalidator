@@ -12,8 +12,9 @@ deploy:
     secure: fKIVMyyqlk1x0uZ5ibDR3rG0N9hBY6LWBvMcxZJnZ89mHPGvXQfy9aZTjop9W6eJWiFWgqKz9sCkzqlF58iHByQZpdmr7k++BTLpVikV2alXYnz0waQvE91+zjo9NlzsOn2aPeABWj4sIyiejjd2o0ExXScCf/QZbGTdEmBV/UgcLK2JCXzVmDcEo/zBvuRPpm0XlDgutlS+PKT64AMKCeZOoCEnqCH+GlVaEW0hmmBooZqP2d+qXfZjOy8V8w+kSPj3pC+F3sWbna+sL+D09nIYr15gC0revRF6qSSRnVSXSdUbS5uC2uZs3ad52yNhSFyVZkf6dSONDx5DWKgn16MRhuVZl0mvUHy48xnJznT90q//ayDxNFHaz6R858mIBziQXUETkmwKc5oIXutM62o48PpxeI5v4olrNG0hAvNl/fHgNalS8zhtYNq+wpNeVHU0zfl1Bl1v++7ZoHbDvGPxVD5OE187iv3t/nOt+iEDXnlG3sEGdubdlOIoblRfdKnjevLiezGViwdLaVNjxs/XsbO+TX28JsaqmuwyM/Kl0FTFJFaVUlnlwtqydAVTF2HlX1GDCocJYxsbKVoVs7xqV+UTCftPjzTPmScO4rDagTNxf0WELwr0ebOKZ7/NZkCV5nwOWAhFeqoAxH0sRxGaVF1+aZss+ikmOLAhVLA=
   skip_cleanup: true
   overwrite: true
-  file_glob: true
-  file: target/ctm-validator-*
+  file:
+  - target/ctm-validator.jar
+  - target/ctm-validator
   on:
     tags: true
 env:
