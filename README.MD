@@ -2,6 +2,8 @@
 
 This is a small tool to quickly validate a CTM model File.
 
+[![Build Status](https://travis-ci.org/Danny02/ctmvalidator.svg?branch=develop)](https://travis-ci.org/Danny02/ctmvalidator)
+
 # release types
 * Unix executable
 * standalone JAR
